@@ -4,43 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Finlay's birthday</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Sniglet&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Andika&family=Fredoka+One&family=Mulish&display=swap" rel="stylesheet">
+
+
     <style>
-      header {
-        font-family: 'Sniglet', cursive;
+
+      header{font-family:"Fredoka One",cursive; color: #FCF3CF;}
+      h1{margin:0;line-height:0.9;}
+      h1{font-size:4rem;}
+
+      main {
+        font-size:0.9rem;
+        color: #C19A6B;
+      }
+      a {
+        color:#C19A6B;
+      }
+      body{
+        font-family:"Mulish",sans-serif;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33%;
+        background-color: #60b8f1;
+
+      }
+      strong{font-weight:700}
+
+
+
+
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+      }
+      img {
+        width: 100%;
       }
 
-      body {
-        font-family: 'Cabin', sans-serif;
-        background-image: url('fin-sm.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: right bottom;
-        background-size: 60%;
-        background-color: lightskyblue;
+      @media only screen and (min-width:500px){
+      }
+
+      @media only screen and (min-width:768px){
+        img {
+          width: 60%;
+        }
+        footer {
+          left: 40%;
+        }
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>Finlay's birthday</h1>
+      <h1>
+        Finlay's<br> Beary<br> First<br> Birthday
+      </h1>
     </header>
 
     <main>
-      At bla bla bla.
-      RSVP via     
-      <a href="sms:+911234567890">
-        SMS
-      </a>
-        or
-      <a href="mailto:estrial@gmail.com">
-        EMAIL
-      </a>
+      <p>Please celebrate with us</p>
+      <p>
+        At <a href="https://goo.gl/maps/rZ7drsR1QqZSGW6j8">the Playshed</a><br>
+        6 Abruzzo Crescent,<br>
+        Thomastown VIC 3074<br>
+        <br>
+        <strong>Saturday 17th September</strong><br>
+        <strong>12:30-14:30</strong>
+      </p>
+
+      <p>
+        RSVP to Lyn <strong>by 5th September</strong><brk
+        <a href="sms:+0433349362">
+          SMS
+        </a>
+          or
+        <a href="mailto:estrial@gmail.com">
+          Email
+        </a><br>
+      </p>
+
     </main>
+    <footer>
+      <img src="fin-sm.png" />
+    </footer>
 
   </body>
 </html>
